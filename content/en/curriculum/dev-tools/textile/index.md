@@ -1,6 +1,6 @@
 ---
-title: "Textile"
-description: "Connecting and Extending PL Projects"
+title: "Tableland"
+description: "A web3 native SQL database"
 draft: false
 menu:
   curriculum:
@@ -12,57 +12,23 @@ level:
 - deep
 ---
 
-Learn more about textile on the website at [textile.io](https://linktr.ee/textileio) and in the [docs](https://docs.textile.io/)
+Tableland is a web3 native SQL database that enables mutability, structure, and advanced querying for data stored via IPFS and Filecoin. 
 
-Textile is designed to connect and extend Libp2p, IPFS, and Filecoin.
+Tableland can be used to enable advanced experiences like mutable file systems built on top of IPFS or Filecoin, dynamic NFTs, community reputation tracking, and more.
 
-Textile’s suite of developer tools, including Powergate, Buckets, and ThreadDB, let developers build meaningful experiences quickly with Web3 protocols like libp2p, IPFS, and Filecoin.
+Learn more about Tableland on the website at [tableland.xyz](http://tableland.xyz) and in the [docs](https://docs.tableland.xyz/)
+#### Tutorials and Useful Info
 
-#### Building Web3: Textile and Data Ownership | Filecoin
+Learn how to create a Tableland table for immutable files on IPFS [https://docs.tableland.xyz/create-a-table-for-immutable-files-on-ipfs](https://docs.tableland.xyz/create-a-table-for-immutable-files-on-ipfs)
 
-{{< youtube d1kpID1LSRE >}}
+Learn about metadata schemas for NFTs: [https://nftschool.dev/reference/metadata-schemas/#intro-to-json-schemas](https://nftschool.dev/reference/metadata-schemas/#intro-to-json-schemas)
 
-## Powergate
-
-Powergate is an API for deploying hybrid Filecoin and IPFS storage into your stack. Designed for developers who want powerful ways to connect & extend Libp2p, IPFS, and Filecoin. It is a Docker container wrapped around an IPFS node + Filecoin node which allows you to stage, store, and retrieve data, with default configs for miner selection
-
-![Fleek Info](powergate.png)
-
-## Other Tools
-
-### The Hub
-The Hub is your portal to the IPFS network and the fastest way to start building and experimenting with Textile technologies.
-
-[Read More](https://docs.textile.io/hub/)
-
-### Buckets
-Buckets are:
-* A new way to pin data to IPFS and archive data on Filecoin.
-* Dynamic folders published simultaneously over IPFS, IPNS, and HTTP.
-* Designed to simplify creating folders of data and pushing that data to remote IPFS peers for backup, persistence, or sharing.
-
-[Read More](https://docs.textile.io/buckets)
-
-### ThreadDB
-ThreadDB makes dynamic data on the DWeb easy by providing simple data hosting services and an API familiar to anyone who used MongoDB/Mongoose.
-
-ThreadDB is a secure, decentralized, p2p database built on IPFS and Libp2p.
-
-Spend less time configuring encryption or managing content addresses with ThreadDB.
-
-[Read More](https://docs.textile.io/threads/)
-
+Learn how Tableland stores and manages metadata with IPFS and table for its own NFT, Tableland Rigs: [https://dev.tableland.xyz/blog/rigs-data-storage-design-update](https://dev.tableland.xyz/blog/rigs-data-storage-design-update)
 
 ## Other Resources
-Join our public Slack, visit our GitHub, follow us on Twitter, and check out the Blog!
 
-[Read More](https://docs.textile.io/powergate/) | [On Github](https://github.com/textileio/powergate/)
+Join our [Discord](https://discord.gg/dc8EBEhGbg), visit our [GitHub](https://github.com/tablelandnetwork/), follow us on [Twitter](https://twitter.com/tableland__), and check out the [Blog](https://mirror.xyz/tableland.eth)!
 
+Want support building a proof of concept with Tableland? [Learn more about our Pilot Program](https://mirror.xyz/tableland.eth/Xav7NwpeXeqVETl576THWjuuevX4BVIbskrxz4k7BV0) including the Filecoin Chair opportunity, designed for teams building with Filecoin and Tableland. [Click here to apply to future cohorts](https://tableland.xyz/pilot-program/).
 
-Learn more about Filecoin with the [Interview with Andrew Hill](https://filecoin.io/blog/posts/meet-andrew-hill/)
-
-#### Getting Started with Filecion (Using Textile & Powergate) | ETHGlobal – Andrew Hill
-
-A workshop for beginners and intermediate developers with Andrew Hill of Textile. This is for anyone who understands the basics and wants to build something now.
-
-{{< youtube SePJrCLUM0g >}}
+Learn more about Filecoin with the [Interview with Andrew Hill](https://filecoin.io/blog/posts/meet-andrew-hill/)
